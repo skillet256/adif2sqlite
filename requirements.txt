@@ -1,0 +1,8 @@
+# Reporting dependencies (for notebooks/report.ipynb).
+#
+# The core tools -- adif2sqlite.py, find_dupes.py, make_views.py -- use ONLY the
+# Python standard library and need nothing here. Install these only if you want
+# the Jupyter reports.
+pandas>=1.5
+matplotlib>=3.5
+jupyterlab>=3.0

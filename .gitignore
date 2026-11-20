@@ -1,0 +1,15 @@
+# Never commit personal logs or derived data to a public repo.
+*.adi
+*.adx
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
